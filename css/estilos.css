@@ -21,6 +21,7 @@ nav {
 	background-color: #e6e6e6;
 }
 
+
 body header nav div ul li{
 
 	font-size: 3rem;
@@ -51,6 +52,11 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=1a1a
 
 	border: solid 2px;
 }
+
+main {
+	margin-top: 70px;
+}
+
 
 /*FOOTER*/
 
@@ -243,4 +249,113 @@ footer div a:hover {
 	background-color: #1a1a1a;
 	color:#e6e6e6;
 
+}
+
+
+/*SOBRE MI*/
+
+.sobremi_texto {
+
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sobremi_titulo h1{
+
+	font-size: 6rem;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.sobremi_parrafo p {
+
+	font-size: 2rem;
+}
+
+.skills {
+
+	background-color:  #d99cc5;
+	padding: 30px;
+	margin-top: 20px;
+}
+
+.skills_texto h2 {
+
+	font-size: 5rem;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.skills_barras p {
+
+	font-size: 2rem;
+}
+
+.progress {
+
+	height: 2rem;
+	background-color: #d99cc5;
+	border: solid 2px;
+}
+
+.progress-bar {
+
+	background-color: #1a1a1a;
+}
+
+
+.sobremi_redes {
+
+	padding: 30px;
+}
+
+.sobremi_redes h2{
+
+	font-size: 5rem;
+	font-weight: 500;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+
+.icono_sobremi {
+
+	background-color:  #e6e6e6;
+	display: flex;
+	justify-content: center;
+
+	height: 4rem;
+	width: 4rem;
+
+}
+
+.sobremi_redes_links {
+
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: space-around;
+	align-content: flex-end;
+
+}
+
+
+.sobremi_redes_links a{
+
+	color: #1a1a1a;
+	font-size: 2rem;
+	margin-top: 10px;
+}
+
+.sobremi_redes_links a:hover{
+
+	color: #d99cc5;
+	text-decoration: none;
+}
+
+.sobremi_redes_links_individual {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
