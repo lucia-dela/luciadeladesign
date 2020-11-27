@@ -359,3 +359,182 @@ footer div a:hover {
 	flex-direction: column;
 	align-items: center;
 }
+
+
+/*POSTERS*/
+
+.poster_container {
+
+	margin-bottom: 20px;
+}
+
+.posters_lg img {
+
+	margin:10px 0px 10px 0px;
+}
+
+.posters_mobile img {
+
+	margin:10px 0px 10px 0px;
+}
+
+.posters_disclaimer {
+
+	font-size: 3rem;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+
+/*REMERAS*/
+
+
+.remeras_titulo {
+
+	margin-top: 15px;
+	
+}
+
+.remeras_titulo h1{
+
+	font-size: 5rem;
+	font-weight: 500;
+	text-align: center;
+	font-style: italic;
+	padding: 30px;
+}
+
+.remeras_fotos div:hover{
+
+	background-color: #d99cc5;
+
+}
+
+
+.remeras_proximamente {
+
+	background-color: #1a1a1a;
+	padding: 20px;
+	margin-top: 50px;
+
+}
+
+.remeras_proximamente h3 {
+	font-size: 6rem;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	color:#d99cc5;
+}
+
+.remeras_proximamente h4 {
+	font-size: 3rem;
+	font-weight: 200;
+	text-align: center;
+	color: #e6e6e6;
+	font-family: 'IBM Plex Sans';
+	margin:10px;
+}
+
+.remeras_proximamente h5 {
+	font-size: 3rem;
+	font-weight: 200;
+	text-align: center;
+	color:#d99cc5;
+	font-family: 'IBM Plex Sans';
+}
+
+
+/*CONTACTO*/
+
+
+ form {
+ 	font-size: 2rem;
+ }
+ 
+
+
+ .contacto {
+
+ 	display: flex;
+ 	flex-flow: column wrap;
+
+ 	padding: 2.5vw;
+
+ }
+
+.contacto label {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	font-size: 2.5rem;
+}
+
+.contacto input {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: solid 2px;
+	padding: 3px;
+}
+
+.contacto .select_texto {
+
+	font-size: 2.5rem;	
+}
+
+.contacto select{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: solid 2px;
+	padding: 3px;
+}
+
+
+ .botones_contacto {
+
+ 	display: flex;
+ 	flex-flow: row wrap;
+
+
+ }
+
+ .boton_individual {
+
+ 	width: 250px;
+ 	padding: 10px;
+ 	border: solid 2px;
+
+ 	font-size: 1.5rem;
+ 	font-style: italic;
+ }
+
+ .newsletter {
+
+ 	font-size: 1.5rem;
+ }
+
+.fondo_contacto_titulo {
+
+	background-color: #d99cc5;
+	border-top: solid 3px;
+	border-bottom: solid 3px;
+
+}
+
+
+.titulo_contacto {
+
+
+	font-size: 8rem;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+
+}
